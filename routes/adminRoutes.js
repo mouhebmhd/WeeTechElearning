@@ -10,21 +10,21 @@ const {
 } = require('../controller/adminController');
 
 // Route for getting an administrator by their unique ID
-router.get('/administrators/:id', getAdministratorById);
+router.get('/administrators/getById/:id', getAdministratorById);
 
 // Route for getting an administrator by the associated user's unique ID
-router.get('/administrators/user/:userId', getAdministratorByUserId);
+router.get('/administrators/getAssociatedUser/:userId', getAdministratorByUserId);
 
 // Route for getting all administrators
-router.get('/administrators', getAllAdministrators);
+router.get('/administrators/getAll', getAllAdministrators);
 
 // Route for creating a new administrator
-router.post('/administrators', createAdministrator);
+router.post('/administrators/createOne/', createAdministrator);
 
 // Route for updating an administrator's department or access level
-router.put('/administrators/:id', updateAdministrator);
+router.put('/administrators/updateOne/:id', updateAdministrator);
 
 // Route for deleting an administrator by their unique ID
-router.delete('/administrators/:id', deleteAdministrator);
+router.delete('/administrators/deleteOne/:id', deleteAdministrator);
 
 module.exports = router;
