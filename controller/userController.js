@@ -1,4 +1,4 @@
-const {User}=require("../schemas/userSchema");
+const User=require("../schemas/userSchema");
 const bcrypt=require("bcrypt")
 // 🔍 Search: Retrieves a user by their unique ID
 const getUserById = async (req, res) => {

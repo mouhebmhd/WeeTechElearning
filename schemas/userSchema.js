@@ -65,5 +65,5 @@ var userModel=new mongoose.Schema(
     },
    } 
 );
-userModel=mongoose.model("User",userModel);
-module.exports=userModel;
+const User=mongoose.model("User",userModel);
+module.exports=User;
