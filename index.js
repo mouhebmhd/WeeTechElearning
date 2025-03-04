@@ -11,7 +11,9 @@ const tertiaryPort=process.env.tertiaryPort
 const server =express()
 //starting the server
 const port = primaryPort || secondaryPort || tertiaryPort;
-
+// connect to database 
+const {connectToDatabase}=require("./database/connectDatabase")
+connectToDatabase()
 server.listen(port, () => {
     console.log(`Server is actually running on port ${port}`);
 });
