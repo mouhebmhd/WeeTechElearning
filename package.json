@@ -4,7 +4,8 @@
   "description": "WeeTechElearning is a platform dedicated to providing high-quality tech education through interactive courses and hands-on training. It covers various fields, including AI, web development, and cybersecurity, to help learners build practical skills.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -25,6 +26,8 @@
   "homepage": "https://github.com/mouhebmhd/WeeTechElearning#readme",
   "dependencies": {
     "axios": "^1.8.1",
+    "dotenv": "^16.4.7",
+    "env": "^0.0.2",
     "express": "^4.21.2",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.12.0",
