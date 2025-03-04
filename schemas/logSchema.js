@@ -1,3 +1,5 @@
+const mongoose = require("mongoose");
+
 const loginHistorySchema = new mongoose.Schema({
     userId: {
         type: mongoose.Schema.Types.ObjectId,
@@ -13,7 +15,8 @@ const loginHistorySchema = new mongoose.Schema({
         type: Date,
         required: true,
         default: Date.now
-    },
-
+    }
 });
+
+const LoginHistory = mongoose.model("LoginHistory", loginHistorySchema);
 module.exports = { LoginHistory };

@@ -14,6 +14,10 @@ const subscriptionSchema = new mongoose.Schema({
     subscribedAt: {
         type: Date,
         default: Date.now
+    },
+    courseProgress: {
+        type: Number,
+        required:true
     }
 });
 
