@@ -15,11 +15,11 @@ export default function SignUp() {
 
       <div className="container-fluid d-flex align-items-center signUpContainer">
 
-        <div className="col-6">
+        <div className="col-6  ">
           <h1 className="signUpTitle">Ready to Code! <br /> Join us for free</h1>
         </div>
 
-        <div className="col-6">
+        <div className=" col-sm-12 col-md-12 col-lg-6">
           <div className="col-10 signUpForm d-flex gap-3 flex-column align-items-center">
             <h2 className='signUpMessage'>Sign Up </h2>
 
