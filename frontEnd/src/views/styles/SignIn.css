@@ -1,0 +1,44 @@
+.signInContainer
+{
+    width: 99vw;
+    height: 100vh;
+    background-image: url("../../assets/img/dotsBg.png");
+    background-size: cover;
+}
+.logoImage
+{
+    width: 12rem;
+}
+.loginForm
+{
+    border: 1px solid var(--mainColor) ;
+    padding:15px;
+    border-radius: 15px;
+}
+.formIconItem
+{
+    border: 1px solid rgb(236, 235, 235);
+    padding: 5px;
+    border-radius: 15px ;
+}
+.input-form-control
+{
+    border: none !important;
+}
+.rememberMeLabel
+{
+    color: var(--mainColor);
+    font-weight: 600;
+}
+.loginButton
+{
+    text-align: center;
+    background-color: var(--darkBlueColor);
+    color: #fff;
+    font-weight: 600;
+}
+.specialText
+{
+    color: var(--mainColor);
+    font-weight: 600;
+}

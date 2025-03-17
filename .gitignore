@@ -1,2 +1,4 @@
 /node_modules
 .env
+/backendServer/node_modules
+/frontEnd/node_modules
