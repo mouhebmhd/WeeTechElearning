@@ -60,7 +60,7 @@ export default function SignIn () {
                     class='rememberMeLabel form-check-label mx-2'
                     for='rememberMe'
                   >
-                    <Link to="/resetPassword">Forgot Password </Link>
+                    <Link to="/forgotPassword">Forgot Password </Link>
                     
                   </label>
                 </div>

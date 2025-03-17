@@ -9,6 +9,7 @@ import Courses from './views/courses';
 import SignIn from './views/signIn';
 import SignUp from "./views/signUp"
 import ResetPassword from "./views/resetPassword"
+import ForgotPassword from "./views/forgotPassword"
 function App() {
   return (
     <>
@@ -21,6 +22,7 @@ function App() {
         <Route path='/signIn' element={<SignIn />} />
         <Route path='/signUp' element={<SignUp />} />
         <Route path='/resetPassword' element={<ResetPassword />} />
+        <Route path='/forgotPassword' element={<ForgotPassword />} />
       </Routes>
     </>
   );
