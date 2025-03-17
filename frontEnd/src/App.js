@@ -7,6 +7,7 @@ import OurServices from './views/ourServices';
 import AboutUs from "./views/aboutUs";
 import Courses from './views/courses';
 import SignIn from './views/signIn';
+import SignUp from "./views/signUp"
 function App() {
   return (
     <>
@@ -17,7 +18,7 @@ function App() {
         <Route path='/team' element={<AboutUs />} />
         <Route path='/courses' element={<Courses />} />
         <Route path='/signIn' element={<SignIn />} />
-        <Route path='/signUp' element={<LandingPage />} />
+        <Route path='/signUp' element={<SignUp />} />
       </Routes>
     </>
   );
