@@ -4,7 +4,7 @@ import logoImage from '../../src/assets/img/logoWebsite.png'
 import { CiUser } from 'react-icons/ci'
 import { FaUserLock } from 'react-icons/fa'
 import { FaEyeLowVision } from 'react-icons/fa6'
-
+import { Link } from 'react-router-dom'
 export default function SignIn () {
   return (
     <>
@@ -60,7 +60,8 @@ export default function SignIn () {
                     class='rememberMeLabel form-check-label mx-2'
                     for='rememberMe'
                   >
-                    Forgot Password 
+                    <Link to="/resetPassword">Forgot Password </Link>
+                    
                   </label>
                 </div>
               </div>
