@@ -16,3 +16,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+:root
+{
+  --lightGreenColor: #7cf23d;
+  --orangeColor: #f36f17;
+  --blueGreenColor: #0FA7AA;
+  --lightOrangeColor:#f59943;
+}

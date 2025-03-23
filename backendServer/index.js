@@ -18,5 +18,5 @@ const port = primaryPort || secondaryPort || tertiaryPort;
 const connectToDatabase=require("./database/connectDatabase")
 connectToDatabase()
 server.listen(port, () => {
-    console.log(`Server is actually running on port ${port}`);
+    console.log(`Server is actually running on port ${3000}`);
 });
