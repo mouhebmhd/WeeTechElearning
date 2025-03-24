@@ -1,61 +1,7 @@
-*
+.subscribeBtn
 {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-:root
-{
-    --mainColor:#00ADB4;
-}
-.btn-subscribe
-{
-    border:1px solid  #00ADB4;
-    background-color: white;
-    border-radius:15px ;
-}
-.btn-subscribe:hover 
-{
-    background-color:#00ADB4;
-    color: white;
-    border-radius:15px ;
-    box-shadow: 3px 3px 8px 0px var(--mainColor);
-    transition-duration: 0.5s;
-    transition-property: all;
-    transition-timing-function: ease-in-out;
-}
-.btn-contact
-{
-    background-color:#00ADB4;
-    border-radius:15px ;
-    color: #fff;
-}
-.navbar
-{
-    background-color: white  !important;
-    display: flex;
-    justify-content: space-between;
-}
-.brandLogo
-{
-    height:50px ;
-}
-.nav-link
-{
-    font-weight: 500;
-}
-.nav-link:hover
-{
-    font-weight: 900;
-}
-.btn-contact:hover
-{
-    border: 1px solid var(--mainColor) ;
-    border-radius:15px ;
-    background-color: var(--mainColor);
-    box-shadow: 3px 3px 8px 0px var(--mainColor);
-    color: #fff;
-    transition-duration: 0.5s;
-    transition-property: all;
-    transition-timing-function: ease-in-out;
+ background-color: var(--orangeColor);
+ color: #fff;
+ font-weight: 500;
+ border-radius: 15px 30px 15px 5px;
 }

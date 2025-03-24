@@ -6,8 +6,9 @@
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
 }
-    .navbar
+    .navbarItems li a
     {
+        color: #fff !important;
 
     }
         .logoImage
@@ -22,13 +23,7 @@
             font-weight: 500;
             
         }
-            .subscribeBtn
-            {
-            background-color: var(--orangeColor);
-            color: #fff;
-            font-weight: 500;
-            border-radius: 15px 30px 15px 5px;
-            }
+            
             .firstText
             {
                 color: #fff;
@@ -56,15 +51,16 @@
                 color: #fff;
                 font-size: 20px;
             }
-            .enrollBtn
+            #enrollBtn
             {
                 background-color: var(--blueGreenColor);
+                color: #fff;
                 padding: 18px;
                 font-weight: 600;
                 padding-inline: 50px;
                 border-radius: 20px 41px 16px 23px;
             }
-            .enrollBtn:hover
+            #enrollBtn:hover
             {
                 background-color: var(--blueGreenColor);
             
