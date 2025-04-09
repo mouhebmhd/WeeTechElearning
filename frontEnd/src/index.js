@@ -13,7 +13,6 @@ root.render(
   <React.StrictMode>
     
     <Router>
-    <Navbar />
       <App />
       
     </Router>

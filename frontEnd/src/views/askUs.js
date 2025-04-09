@@ -4,9 +4,12 @@ import { FaFacebook } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa6";
+import Navbar from "../components/views/partialComponents/navbar"
 
 export default function AskUs() {
   return (
+    <>
+    <Navbar color="#AA11B1"></Navbar>
     <div className="row m-0 p-0">
         <div className="footerComponent m-0 p-0">
                 <div className="askForm m-0 p-0  ">
@@ -93,5 +96,6 @@ export default function AskUs() {
                 </div>
             </div>
     </div>
+    </>
   )
 }

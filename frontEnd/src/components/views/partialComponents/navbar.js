@@ -3,9 +3,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import "./navbar.css";
 import { Link } from "react-router-dom";
 import logoImage from "../../../assets/img/logo-removebg-preview.png"
-export default function Navbar() {
+export default function Navbar(props) {
   return (
-    <nav class='navbar navbar-expand-lg'>
+    <nav class='navbar navbar-expand-lg' style={{backgroundColor:props.color}}>
           <div class='container-fluid'>
             <a class='navbar-brand' to='#'>
               <img src={logoImage} class='logoImage' alt='Logo' />
@@ -39,7 +39,7 @@ export default function Navbar() {
                   </Link>
                 </li>
                 <li class='nav-item'>
-                  <Link class='nav-link' to='askUs'>
+                  <Link class='nav-link' to='/askUs'>
                     Ask Us
                   </Link>
                 </li>

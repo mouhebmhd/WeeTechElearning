@@ -6,7 +6,7 @@ export default function LandingPage () {
   return (
     <>
       <div className='container-fluid bgContainer '>
-        
+        <Navbar color="transparent"></Navbar>
         <div class='container content h-75 d-flex flex-column justify-content-center'>
           <p class='firstText'>Admission</p>
           <p class='secondText'>

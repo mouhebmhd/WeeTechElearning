@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FcPrevious } from "react-icons/fc";
 import { FcNext } from "react-icons/fc";
-
+import Navbar from "../components/views/partialComponents/navbar"
 import kidsOne from "../assets/img/kidsOne.jpg";
 import kidsTwo from "../assets/img/kidsTwo.jpg";
 import kidsThree from "../assets/img/kidsThree.jpg";
@@ -27,6 +27,7 @@ const OurGallery = () => {
 
   return (
     <>
+    <Navbar color="#AA11B1"></Navbar>
       <h1 className="text-center fw-bold mb-3" id="gallery">Our Gallery</h1>
       <div className="carouselContainer d-flex justify-content-center">
         <div className="prevContainer d-flex flex-column justify-content-center mx-5">

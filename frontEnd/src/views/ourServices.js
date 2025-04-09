@@ -2,9 +2,13 @@ import React from 'react'
 import "./styles/servicesStyle.css"
 import { FaPencilAlt } from "react-icons/fa";
 import { LuPhoneCall } from "react-icons/lu";
+import Navbar from "../components/views/partialComponents/navbar"
 
 export default function OurServices() {
   return (
+    <>
+    <Navbar color="#3A3858"></Navbar>
+
     <div className="row m-0 p-0">
         <div className="container-fluid m-0 p-0 servicesContainer">
             <div className="content d-flex flex-column justify-content-center  h-75 p-3">
@@ -65,5 +69,8 @@ export default function OurServices() {
             </div>
         </div>
     </div>
+    
+    </>
+    
   )
 }

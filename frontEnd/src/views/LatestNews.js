@@ -4,9 +4,11 @@ import { FaCalendarAlt } from "react-icons/fa";
 import saturn from "../assets/img/saturn.png"
 import stars from "../assets/img/stars.png"
 import balloons from "../assets/img/balloons.png"
+import Navbar from "../components/views/partialComponents/navbar"
 export default function LatestNews() {
   return (
     <>
+    <Navbar color="#AA11B1"></Navbar>
     <h1 className="text-center">Latest News </h1>
     <div className="row m-0 p-0 mt-3">
         <div className="col-md-6 col-lg-6 col-sm-12  column-gap-2">
