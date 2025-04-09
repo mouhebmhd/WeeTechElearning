@@ -5,6 +5,7 @@ import LandingPage from "./views/LandingPage";
 import LatestNews from './views/LatestNews';
 import OurGallery from './views/ourGallery';
 import AskUs from './views/askUs';
+import OurServices from './views/ourServices';
 function App() {
   return (
     <>
@@ -15,6 +16,7 @@ function App() {
         <Route path='/gallery' element={<OurGallery />} /> 
         <Route path='/latestNews' element={<LatestNews />} /> 
         <Route path='/askUs' element={<AskUs />} /> 
+        <Route path='/services' element={<OurServices />} /> 
         
   
       </Routes>
