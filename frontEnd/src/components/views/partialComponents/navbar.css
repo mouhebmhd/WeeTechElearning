@@ -5,3 +5,9 @@
  font-weight: 500;
  border-radius: 15px 30px 15px 5px;
 }
+.navbar
+{
+    background-color: #3A3858;
+    position: sticky top;
+    
+}

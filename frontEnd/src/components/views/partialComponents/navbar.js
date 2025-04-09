@@ -24,39 +24,39 @@ export default function Navbar() {
             <div class='collapse navbar-collapse ' id='navbarNav'>
               <ul class='navbar-nav me-auto navbarItems mb-2 mb-lg-0   w-100 d-flex justify-content-end'>
                 <li class='nav-item'>
-                  <a class='nav-link' to='#home'>
+                  <Link class='nav-link' to='/'>
                     Home
-                  </a>
+                  </Link>
                 </li>
                 <li class='nav-item'>
-                  <a class='nav-link' to='#'>
-                    Administration
-                  </a>
-                </li>
-                <li class='nav-item'>
-                  <a class='nav-link' to='#'>
-                    Categories
-                  </a>
-                </li>
-                <li class='nav-item'>
-                  <a class='nav-link' to='#'>
-                    Courses
-                  </a>
-                </li>
-                <li class='nav-item'>
-                  <a class='nav-link' to='#'>
-                    Our Team
-                  </a>
-                </li>
-                <li class='nav-item'>
-                  <a className='nav-link' href='#gallery'>
+                  <Link class='nav-link' to='/gallery'>
                     Gallery
-                  </a>
+                  </Link>
                 </li>
                 <li class='nav-item'>
-                  <a class='nav-link' to='#'>
+                  <Link class='nav-link' to='/latestNews'>
+                    Latest News
+                  </Link>
+                </li>
+                <li class='nav-item'>
+                  <Link class='nav-link' to='askUs'>
+                    Ask Us
+                  </Link>
+                </li>
+                <li class='nav-item'>
+                  <Link class='nav-link' to='/services'>
+                    Services
+                  </Link>
+                </li>
+                <li class='nav-item'>
+                  <Link className='nav-link' href='#gallery'>
+                    Gallery
+                  </Link>
+                </li>
+                <li class='nav-item'>
+                  <Link class='nav-link' to='#'>
                     Contact Us
-                  </a>
+                  </Link>
                 </li>
               </ul>
               <button class='btn  subscribeBtn'>Subscribe</button>
