@@ -12,3 +12,11 @@
     top: 85%;
     
 }
+.secondButton
+{
+    background-color: var();
+}
+.viewAllButton.btn-warning
+{
+    background-color:#FFC107;
+}

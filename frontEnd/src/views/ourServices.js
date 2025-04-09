@@ -54,7 +54,7 @@ export default function OurServices() {
                 <div className=" container-fluid contentFooter m-0 p-0">
                     <h4 className='text-center text-light'>Make your children's life special by enrolling them in our academy</h4>
                     <div className="container-fluid justify-content-center d-flex align-items-center ">
-                        <button className="btn  viewAllButton ">
+                        <button className="btn  viewAllButton btn-warning">
                             Enroll Your child 
                         </button>
                         <LuPhoneCall className='mx-3 h2 text-light'/>
