@@ -1,5 +1,5 @@
 const mongoose=require("mongoose");
-var userModel=new mongoose.Schema(
+var userSchema=new mongoose.Schema(
    {
     userLastName :
     {
@@ -65,5 +65,5 @@ var userModel=new mongoose.Schema(
     },
    } 
 );
-const User=mongoose.model("User",userModel);
+const User=mongoose.model("User",userSchema);
 module.exports=User;

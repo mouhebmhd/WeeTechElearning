@@ -7,7 +7,7 @@ const {
     getAttachmentsForLesson,
     updateAttachment,
     deleteAttachment
-} = require("../controller/attachmentController"); // Adjust path if needed
+} = require("../controller/attachementController"); // Adjust path if needed
 
 // ✨ Create a new attachment
 router.post("/attachements/createOne", createAttachment);

@@ -1,9 +1,9 @@
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
 const User = require('../schemas/userSchema'); // Adjust the path if necessary
-const {Student} = require('../schemas/studentModel');  // Adjust the path as necessary
-const {Teacher} = require('../schemas/teacherModel');  // Adjust the path as necessary
-const {Administrator} = require('../schemas/administratorModel');  // Adjust the path as necessary
+const {Student} = require('../schemas/studentSchema');  // Adjust the path as necessary
+const {Teacher} = require('../schemas/teacherSchema');  // Adjust the path as necessary
+const {Administrator} = require('../schemas/adminSchema');  // Adjust the path as necessary
 
 // 🗝️ Login: Authenticates a user based on email and password
 const loginUser = async (req, res) => {

@@ -7,7 +7,7 @@ const {
     createQuestion, 
     deleteQuestion, 
     updateQuestion 
-} = require("../controllers/questionController");
+} = require("../controller/questionController");
 
 // 🔍 Get question by ID
 router.get("/questions/getById/:id", getQuestionById);

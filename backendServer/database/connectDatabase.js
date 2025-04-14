@@ -7,12 +7,12 @@ const connectToDatabase = async () => {
         await mongoose.connect(databaseUrl, {
             useNewUrlParser: true,
             useUnifiedTopology: true,
-            serverSelectionTimeoutMS: 30000, // Increase timeout to prevent issues
+            serverSelectionTimeoutMS: 30000, 
         });
         console.log("Successfully Connected to MongoDB!");
     } catch (error) {
         console.error("Error connecting to MongoDB:", error);
-        process.exit(1); // Stop the app if connection fails
+        process.exit(1); 
     }
 };
 

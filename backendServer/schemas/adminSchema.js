@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const User = require("./userModel");
+const User = require("./userSchema");
 
 const administratorSchema = new mongoose.Schema({
     user: {

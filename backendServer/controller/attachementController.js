@@ -1,4 +1,4 @@
-const {Attachment} = require("../schemas/Attachment");
+const {Attachment} = require("../schemas/attachementSchema");
 
 // ✨ Add: Creates a new attachment and saves it to the database
 const createAttachment = async (req, res) => {
